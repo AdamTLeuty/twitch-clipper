@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Twitch Clip App</title>
+    </head>
+    <body>
+        <h1>Hello, {{.Username}}</h1>
+        <p>This is a simple server with HTML templating.</p>
+        <form method="post" action="/twitchURL">
+            <label>
+                Enter the twitch url you want to create a template for here:
+                <input name="channel" type="url" value="https://www.twitch.tv/pangi" />
+            </label>
+            <input type="submit" value="Get stream" />
+        </form>
+    </body>
+</html>
