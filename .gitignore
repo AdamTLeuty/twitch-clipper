@@ -1,0 +1,30 @@
+# Go binary files
+/bin/
+/out/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go workspace files
+*.test
+*.prof
+*.out
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Go module cache (if you're using Go modules)
+/go.sum
+/go.mod
+
+# Temporary files
+*.swp
+*.swo
+
+#Build files
+build
+main
